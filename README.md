@@ -31,7 +31,7 @@ Git is something known as “version control” system. In short, this system sa
 
 ## GitHub
 
-This is different to Git. Instead this a cloud-based storage system that stores the contents of your Git. Our lab, interacts with the content of the GitHub in two ways, using the desktop app and using GitHub in your web browser.
+This is different to Git. Instead this a cloud-based storage system that stores the contents of your Git repository online (**MAKE SURE YOU HAVE THE REPOSITORY SET TO PRIVATE IF DESIRED**). Our lab, interacts with the content of the GitHub in two ways, using the desktop app and using GitHub in your web browser.
 
 You also need to ensure that you have a GitHub premium account (this is free for students).
 
@@ -72,10 +72,10 @@ You can edit the README.md in any text editor, though I like R studio.
 
 ## Directory templates
 
-Several templates have been made for your convenience. Check Templates folder in this repository.
+Several templates have been made for your convenience, access them [here](https://drive.google.com/drive/folders/1dCdiRN_8FS5AD5XSGm9nlPYaxtmwZXSE?usp=sharing) (descriptions on contents below).
 
 The project folders contain some of the following (with description):
-* README.RMD (standardised Rmarkdown file – see Documenting Changes section)
+* README.MD (standardised Rmarkdown file – see Documenting Changes section)
 * Manuscripts/ (folder to store your project manuscripts)
 * Materials/ (folder to store meta data and useful writing)
 * Data/ (folder to store all data. This should live on the cloud and be shared with collaborators)
@@ -107,7 +107,7 @@ This framework was designed to work particularly well with R, but will also work
 2. Link to GitHub, MAKE SURE YOU MAKE A PRIVATE REPOSITORY IF REQUIRED
 3. Invite collaborators to join project on GitHub
 4. Share data with collaborators from google drive
-5. Update the README.RMD
+5. Update the README.MD
 6. DONE
 
 #### Joining someone’s project (cloning)
@@ -128,6 +128,8 @@ This framework was designed to work particularly well with R, but will also work
 
 ## How to collaborate outside of the lab
 
+TBA ...
+
 * What to share etc.
 * What not to share
 
@@ -136,12 +138,13 @@ This framework was designed to work particularly well with R, but will also work
 
 * Use “_” instead of space in folder names
 * Have your OS display hidden files
+* Get a spell checker for Rstudio
 
 ## Advanced usage
 
 #### R markdown and HTML
 
-Add text here ...
+TBA ...
 
 #### LATEX compatibility in R markdown
 
@@ -149,7 +152,7 @@ Add text here ...
 
 #### .gitignore
 
-To understanding the patterns ignored in the git file [read here](https://git-scm.com/docs/gitignore).
+.gitgnore files are to stop git from commiting files with certain extensions. These files will never be synced online. You can change this file if desire. To understanding the patterns ignored in the git file [read here](https://git-scm.com/docs/gitignore).
 
 #### Git branches
 These allow you to make changes to the project that you may or may not want to include in the future (think of them as the same project in a parallel universe). The big downside is that it is that you need to have a fairly good understanding of GitHub to use and that it becomes more difficult to predict how changes on the main project will be integrated with the branch in the future.
