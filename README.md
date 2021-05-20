@@ -167,6 +167,7 @@ Write a function in the project .Rprofile file the adds the appropriate working 
 
 Function below to add extention to filepath x (e.g. x = “Data/data.csv”). Check Sys.info()["user"] for your computers user.
 
+```r
 mpath <- function(x){
   
   if (Sys.info()["user"] == "maxcampbell"){
@@ -182,6 +183,7 @@ mpath <- function(x){
   paste0(max_ext, x)
   
 }
+```
 
 If using another Program:
 Set the appropriate working directory in the program (could use a similar function to above R version easily enough).
