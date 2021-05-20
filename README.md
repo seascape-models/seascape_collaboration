@@ -12,8 +12,8 @@ The figure below contains the understanding necessary to use this framework. You
 
 ## TODO List
 
-* Get Chris to check over this document
-* Run the framework past Eric
+* [ ] Get Chris to check over this document
+* [ ] Run the framework past Eric
 
 
 ## Google drive (storing data)
