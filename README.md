@@ -12,8 +12,12 @@ The figure below contains the understanding necessary to use this framework. You
 
 ## TODO List
 
-* [ ] Get Chris to check over this document
-* [ ] Run the framework past Eric
+* Chris to check over this document
+* Present to lab @maxcampb
+* Workshop at Nathan
+* Workshop at GC
+* Online workshop?
+* Ensure that everyone is familarised with the framework
 
 
 ## Google drive (storing data)
@@ -69,6 +73,23 @@ Often, we think of recording metadata (project information) as being a painful e
 
 You can edit the README.md in any text editor, though I like R studio.
 
+## Using issues
+
+Github issues allow us to be able to keep track of things that need to be resolved, record potential bugs and highlighting document checks needed, while assigning responsibility to the task to a person. These issues are a good place to have discussion on a particular issue by using commenting (this way we can keep track of the juicy details).
+
+These should be written directly in GitHub.com (COMMAND + I in the desktop app) or on the mobile app. Note that you can assign parts of an issue to a users using "\@username", and make a checkbox in th use using "- [ ]".
+
+#### Creating and removing an issue
+
+1. Go to the ![GitHub.com](https://github.com/)
+2. Move to the relevant project repository.
+3. Click issues, and then new issue.
+4. Fill in the details of the issue (using checkboxes "- [ ]") and assigning sub-parts of the issue to the relevant user using the "\@" operator, and then submit the issue. Create the issue.
+5. Make a user an assignee (they are now in charge of the issue)
+6. Wait till issue is resolved ...
+7. Close the issue when it is resolved.
+8. Hooray issue solved!
+
 
 ## Directory templates
 
@@ -98,6 +119,9 @@ This framework was designed to work particularly well with R, but will also work
 * Understand how to change work directories easily in R
 * Personalised .Rprofiles to find the data if in different location to scripts (e.g. the spatial drive), see advanced section below
 
+## Using the mobile app
+
+This application lets you look at code, issues and get notifications. You can also create new issues from your phone, however, some functionally seems to be reduced. Either way its cool so give it a GO!
 
 ## How to do...
 
