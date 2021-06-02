@@ -2,6 +2,10 @@
 
 Max Campbell, Chris Brown
 
+## Quick links
+
+[Get directory template](https://drive.google.com/drive/folders/1dCdiRN_8FS5AD5XSGm9nlPYaxtmwZXSE?usp=sharing) 
+
 ## The Motivation
 
 This framework was designed for the seascape model lab to be able to collaborate across multiple projects with a consistent and coherent structure. To be able to effective use this framework you need to have a basic idea of git, GitHub, folder directories and Google Drive (if you are not understanding this structure you likely have a gap in your knowledge in one of these key areas). 
@@ -14,7 +18,7 @@ The figure below contains the understanding necessary to use this framework. You
 
 * Chris to check over this document
 * Present to lab @maxcampb
-* Workshop at Nathan
+* Get other opinions on what works well with collaboration
 * Workshop at GC
 * Online workshop?
 * Ensure that everyone is familarised with the framework
@@ -62,7 +66,7 @@ Your main folders and files should stem from the Users folder. You can navigate 
 #### Windows
 Your main folders and files should stem from the Users folder. You can navigate through the directory using the “\\” operator. For example, “C:\\Users\\maxcampbell” is the location of the base directory for the user “maxcampbell” , further if we want to go lower in the directory “C:\\Users\\maxcampbell\\Documents” will take into the “Documents” folder of this user “C:\\Users\\maxcampbell\\Documents\\Active_projects” into the “Active_projects” folder within the “Documents” folder of the user. Finally, if wanting to refer to the data saved as at csv file in the “Active_projects” folder we use “C:\\Users\\maxcampbell\\Documents\\Active_projects \\data.csv”.  And you should be able to access any file on your computer using this method (including a folder on Google Drive, after you have the Google Drive app).
 
-![**Figure 2**. An example of the hierarchal nature of directories on a user’s computer. Red path shows the example we gave in the directories operation system section. Teal paths indicate an example of a project directory.](Figures/Directory_example.png)
+![**Figure 2**. An example of the hierarchical nature of directories on a user’s computer. Red path shows the example we gave in the directories operation system section. Teal paths indicate an example of a project directory.](Figures/Directory_example.png)
 
 
 ## Documenting changes
