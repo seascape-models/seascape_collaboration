@@ -1,4 +1,4 @@
-# The general framework from collaboration in the Seascape models Lab
+# The general framework for collaboration in the Seascape models Lab
 
 Max Campbell, Chris Brown
 
@@ -8,7 +8,7 @@ Max Campbell, Chris Brown
 
 ## The Motivation
 
-This framework was designed for the seascape model lab to be able to collaborate across multiple projects with a consistent and coherent structure. To be able to effective use this framework you need to have a basic idea of git, GitHub, folder directories and Google Drive (if you are not understanding this structure you likely have a gap in your knowledge in one of these key areas). 
+This framework was designed for the seascape model lab to be able to collaborate across multiple projects with a consistent and coherent structure. To effectively use this framework you need to have a basic idea of git, GitHub, folder directories and Google Drive (if you are not understanding this structure you likely have a gap in your knowledge in one of these key areas). 
 
 The figure below contains the understanding necessary to use this framework. You should be able to understand every piece of information (compartments, arrows, labels). If you don’t understand something, ask someone who is familiar with the framework. In short, orange box lives only the internet, purple box lives on the internet and maybe somewhere else if working offline, and the blue boxes can live anywhere (but we recommend they live on the google drive too). The green arrows indicate transfer of information. Note that GitHub and Google Drive are not connected in any way (and they operate completely independently). **NEVER** share your user folder with another user whom is connected to the GitHub repository or you may **LOSE YOUR DOCUMENTS OR CODE**.
 
@@ -149,7 +149,7 @@ This application lets you look at code, issues and get notifications. You can al
 
 1. Click “fetch origin” to get the most up to date version of the project from GitHub (Pull request)
 2. Make changes to the project just as you would on your local machine
-3. Commit changes after filling out the summary description boxes.
+3. Commit changes after filling out the summary description boxes
 4. Push changes back up to GitHub
 5. DONE
 
