@@ -83,6 +83,8 @@ Github issues allow us to be able to keep track of things that need to be resolv
 
 These should be written directly in GitHub.com (COMMAND + I in the desktop app) or on the mobile app. Note that you can assign parts of an issue to a users using "\@username", and make a checkbox in th use using "- [ ]".
 
+After creating an issue make sure that you delegate at least 1 assignee who is in charge of making sure that the issue is addressed (if unsure who to assign, assign yourself), and add relevant labels.
+
 #### Creating and removing an issue
 
 1. Go to the ![GitHub.com](https://github.com/)
@@ -94,6 +96,15 @@ These should be written directly in GitHub.com (COMMAND + I in the desktop app) 
 7. Close the issue when it is resolved.
 8. Hooray issue solved!
 
+## Using discussions
+
+In addition to using issues we use discussions. Where important distinction between an issue and a discussion is that issues are tasks assigned to individuals or groups which are expected to be completed, while participation in discussion is welcomed but not essential. Think of discussions as a way to share thoughts, get help, help others and network. Please follow the guidelines below when participating in discussions, and use the following flow chart.
+
+#### Discussion guidelines
+
+Text here ...
+
+Flowchart here ...
 
 ## Directory templates
 
