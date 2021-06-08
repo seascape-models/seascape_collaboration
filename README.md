@@ -12,7 +12,7 @@ This framework was designed for the seascape model lab to be able to collaborate
 
 The figure below contains the understanding necessary to use this framework. You should be able to understand every piece of information (compartments, arrows, labels). If you don’t understand something, ask someone who is familiar with the framework. In short, orange box lives only the internet, purple box lives on the internet and maybe somewhere else if working offline, and the blue boxes can live anywhere (but we recommend they live on the google drive too). The green arrows indicate transfer of information. Note that GitHub and Google Drive are not connected in any way (and they operate completely independently). **NEVER** share your user folder with another user whom is connected to the GitHub repository or you may **LOSE YOUR DOCUMENTS OR CODE**.
 
-![**Figure 1**. The general framework of collaboration in the Seascape models Lab.](Figures/proposed_collab_framework.png)
+![**Figure 1**. The general framework of collaboration in the Seascape models Lab.](Outputs/proposed_collab_framework.png)
 
 ## TODO List
 
@@ -66,7 +66,7 @@ Your main folders and files should stem from the Users folder. You can navigate 
 #### Windows
 Your main folders and files should stem from the Users folder. You can navigate through the directory using the “\\” operator. For example, “C:\\Users\\maxcampbell” is the location of the base directory for the user “maxcampbell” , further if we want to go lower in the directory “C:\\Users\\maxcampbell\\Documents” will take into the “Documents” folder of this user “C:\\Users\\maxcampbell\\Documents\\Active_projects” into the “Active_projects” folder within the “Documents” folder of the user. Finally, if wanting to refer to the data saved as at csv file in the “Active_projects” folder we use “C:\\Users\\maxcampbell\\Documents\\Active_projects \\data.csv”.  And you should be able to access any file on your computer using this method (including a folder on Google Drive, after you have the Google Drive app).
 
-![**Figure 2**. An example of the hierarchical nature of directories on a user’s computer. Red path shows the example we gave in the directories operation system section. Teal paths indicate an example of a project directory.](Figures/Directory_example.png)
+![**Figure 2**. An example of the hierarchical nature of directories on a user’s computer. Red path shows the example we gave in the directories operation system section. Teal paths indicate an example of a project directory.](Outputs/Directory_example.png)
 
 
 ## Documenting changes
@@ -123,7 +123,7 @@ The project folders contain some of the following (with description):
 * .rprofile (hidden file, to change if data lives elsewhere – see Advanced usage)
 * .gitignore (hidden file tell the .git file what should be recorded and should be shared online through GitHub – see gitignore for further details) 
 
-![**Figure 3**. A visual representation of how an operation project should be structured that uses R (starting with the R_project_START).](Figures/folder_structure.png)
+![**Figure 3**. A visual representation of how an operation project should be structured that uses R (starting with the R_project_START).](Outputs/folder_structure.png)
 
 
 ## Compatibility with R
