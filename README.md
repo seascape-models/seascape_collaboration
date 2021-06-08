@@ -98,7 +98,15 @@ After creating an issue make sure that you delegate at least 1 assignee who is i
 
 ## Using discussions
 
-In addition to using issues we use discussions. Where important distinction between an issue and a discussion is that issues are tasks assigned to individuals or groups which are expected to be completed, while participation in discussion is welcomed but not essential. Think of discussions as a way to share thoughts, get help, help others and network. Please follow the guidelines below when participating in discussions, and use the following flow chart.
+In addition to using issues we use discussions. Where important distinction between an issue and a discussion is that issues are tasks assigned to individuals or groups which are expected to be completed, while participation in discussion is welcomed but not essential. Think of discussions as a way to share thoughts, get help, help others and network. The advantages are:
+
+* Not having to answer the same questions multiple times (people can be referred to the discussion)
+* Efficient usage of lab expertise
+* Great way to learn passively and actively
+* Easy way to get feedback
+* Networking opportunity
+
+Please follow the guidelines below when participating in discussions, and use the following flow chart.
 
 #### Discussion guidelines
 
