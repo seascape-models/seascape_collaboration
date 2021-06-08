@@ -181,13 +181,23 @@ TBA ...
 
 ## Advanced usage
 
-#### R markdown and HTML
+#### Markdown and HTML
 
-TBA ...
+* Learn how to use markdown, [here are some tips](https://rmarkdown.rstudio.com/lesson-1.html)
+* For code write using:
 
-#### LATEX compatibility in R markdown
+\`\`\`r
 
-* Mathematics equations are great
+My r code here
+
+\`\`\`
+
+
+#### LATEX compatibility in R markdown and markdown
+
+* Mathematics equations are great in LateX see guide [here](https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols)
+* Can use them directly in R markdown with "$$ your latex for separate line $$" or "$ your latex for inline $"
+* If wanting to use in github discussions need chrome attachment [purple pi](https://github.com/nschloe/purple-pi)
 
 #### .gitignore
 
