@@ -54,7 +54,7 @@ You need to be able understand and do the following by yourself.
 * Invite – Add another user to your project so they can make edits, join or continue with your progress.
 
 
-## Directories
+## Directories and files
 
 Directories are hierarchical entirely in structure (folders in folder in folders), but shortcuts allow you to jump between paths. There are some differences in the general directory structure of MAC and Windows, so you need to be aware of the ones relevant to your operating system (see below for details). The main thing you need to understand here is the structure of a directory. We stress on proper usage of sub-folders (do it smart not lazy so directories are easy for another user to understand).
 
@@ -67,6 +67,17 @@ Your main folders and files should stem from the Users folder. You can navigate 
 Your main folders and files should stem from the Users folder. You can navigate through the directory using the “\\” operator. For example, “C:\\Users\\maxcampbell” is the location of the base directory for the user “maxcampbell” , further if we want to go lower in the directory “C:\\Users\\maxcampbell\\Documents” will take into the “Documents” folder of this user “C:\\Users\\maxcampbell\\Documents\\Active_projects” into the “Active_projects” folder within the “Documents” folder of the user. Finally, if wanting to refer to the data saved as at csv file in the “Active_projects” folder we use “C:\\Users\\maxcampbell\\Documents\\Active_projects \\data.csv”.  And you should be able to access any file on your computer using this method (including a folder on Google Drive, after you have the Google Drive app).
 
 ![**Figure 2**. An example of the hierarchical nature of directories on a user’s computer. Red path shows the example we gave in the directories operation system section. Teal paths indicate an example of a project directory.](Outputs/Directory_example.png)
+
+#### Naming files and Directories
+
+For tips on naming things we follow similar [Jenny Bryan's naming protocal.](http://www2.stat.duke.edu/~rcs46/lectures_2015/01-markdown-git/slides/naming-slides/naming-slides.pdf)
+
+This includes:
+* Using logical (e.g. start with "001_" to signal step 1, and  "002_" to signal step 2.) rather than chronological order (do not use dates because they have to constantly be updated and are not very human-readable).
+* Descriptive names
+* Using "-" and "_" to separate words
+* No special characters
+* "**-v2**.csv" style to signal new versions and count up numerically (throw old ones in the OLD folder)
 
 
 ## Documenting changes
@@ -110,9 +121,31 @@ Please follow the guidelines below when participating in discussions, and use th
 
 #### Discussion guidelines
 
-Text here ...
+Please adhere to the following when using discussions.
+* First diagnose whether this material is appropriate for a discussion using Figure 3.
+* Do not tag or target other users in the discussion (if you want someone specific to answer ask them politely on teams).
+* Never put down others.
+* Make SURE you mark as answered after you question has been answered, to avoid wasting other users time. And do NOT delete discussions after they have been answered, because they may inform other users.
+* Upvote and like good responses.
+* We encourage answers from everyone because they give us a chance to learn, however, please attach a level of certainty to your response on a scale of 1-10 (where 1, 5, 10 are 10%, 50%, and 100% sure respectively). For example a response might be "That you sea surface temperature is the most important factor according to the literature (6/10)." or "Use an ANOVA not Kruskal wallace test because your residuals are normally distributed (8/10)." 
+* Do not ask about personal matters here.
+* Make sure that the questions are self contained (have adequete information contained to solve).
+* Make sure your answers contain enough detail to make sense.
 
-Flowchart here ...
+![**Figure 3**. Diagonosis of a discussion or issue.](Outputs/Discussion_flowchart.png)
+
+#### Other types of discussions
+
+**Q&A:** These are the main type of discussion and should have solution.
+
+**Announcements:** These are lab wide announcements, that should be read by everyone.
+
+**General:** These are general back and forth discussions that have no clear answer. For example, discussing how to respond to reviewer comments, how to interact with an organisation or professional advice.
+
+**Ideas:** These can be used to discuss future direction of research or improve projects.
+
+**Show and tell:** These are for communicating something you have learn to the lab.
+
 
 ## Directory templates
 
@@ -131,7 +164,7 @@ The project folders contain some of the following (with description):
 * .rprofile (hidden file, to change if data lives elsewhere – see Advanced usage)
 * .gitignore (hidden file tell the .git file what should be recorded and should be shared online through GitHub – see gitignore for further details) 
 
-![**Figure 3**. A visual representation of how an operation project should be structured that uses R (starting with the R_project_START).](Outputs/folder_structure.png)
+![**Figure 4**. A visual representation of how an operation project should be structured that uses R (starting with the R_project_START).](Outputs/folder_structure.png)
 
 
 ## Compatibility with R
