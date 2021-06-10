@@ -4,19 +4,20 @@ Max Campbell, Chris Brown
 
 ## Quick links
 
-[Get directory template](https://drive.google.com/drive/folders/1dCdiRN_8FS5AD5XSGm9nlPYaxtmwZXSE?usp=sharing) 
+[Get directory template](https://drive.google.com/drive/folders/1dCdiRN_8FS5AD5XSGm9nlPYaxtmwZXSE?usp=sharing)
 
 ## The Motivation
 
-This framework was designed for the seascape model lab to be able to collaborate across multiple projects with a consistent and coherent structure. To effectively use this framework you need to have a basic idea of git, GitHub, folder directories and Google Drive (if you are not understanding this structure you likely have a gap in your knowledge in one of these key areas). 
+This framework was designed for the seascape model lab to be able to collaborate across multiple projects with a consistent and coherent structure. To effectively use this framework you need to have a basic idea of git, GitHub, folder directories and Google Drive. We can teach you if you don't.  
 
-The figure below contains the understanding necessary to use this framework. You should be able to understand every piece of information (compartments, arrows, labels). If you don’t understand something, ask someone who is familiar with the framework. In short, orange box lives only the internet, purple box lives on the internet and maybe somewhere else if working offline, and the blue boxes can live anywhere (but we recommend they live on the google drive too). The green arrows indicate transfer of information. Note that GitHub and Google Drive are not connected in any way (and they operate completely independently). **NEVER** share your user folder with another user whom is connected to the GitHub repository or you may **LOSE YOUR DOCUMENTS OR CODE**.
+The figure below explains the framework. Ask us if its not clear.
+
+The orange box lives only the internet, purple box lives on the internet and maybe somewhere else if working offline, and the blue boxes can live anywhere (but we recommend they live on the google drive too). The green arrows indicate transfer of information/files/data. Note that GitHub and Google Drive are not connected in any way (and they operate completely independently). **NEVER** share your user folder with another user whom is connected to the GitHub repository or you may **LOSE YOUR DOCUMENTS OR CODE**.
 
 ![**Figure 1**. The general framework of collaboration in the Seascape models Lab.](Outputs/proposed_collab_framework.png)
 
 ## TODO List
 
-* Chris to check over this document
 * Present to lab @maxcampb
 * Get other opinions on what works well with collaboration
 * Workshop at GC
@@ -26,7 +27,7 @@ The figure below contains the understanding necessary to use this framework. You
 
 ## Google drive (storing data)
 
-We assume that you have a basic understanding of how google drive works. But in short, it is a cloud-based storage that works very similar to a giant USB drive which is backed up online. The trickiest part of using google drive is making sure that you are set up properly on your personal computer ([read here]( https://support.google.com/drive/answer/7329379#zippy= )). After this is done it should work just the same as any other directory (folder structure) with a few extra Google drive options.
+Google drive is a cloud-based storage that works very similar to a giant USB drive which is backed up online. The trickiest part of using google drive is making sure that you are set up properly on your personal computer ([read here]( https://support.google.com/drive/answer/7329379#zippy= )). After this is done it should work just the same as any other directory (folder structure) with a few extra Google drive options.
 
 * Suggest you save project here along with data, but **ONLY SHARE THE DATA**.
 * Students and Staff seem to have unlimited Google drive storage until further notice.
@@ -34,12 +35,13 @@ We assume that you have a basic understanding of how google drive works. But in 
 
 ## Git
 
-Git is something known as “version control” system. In short, this system saves old versions of your project, text, and code. For a beginner user it is sufficient for you to just check that you have at .git file in your project directory, if you do, you don’t need to worry about anything further. Each project needs its own .git file and this should be located at the highest level in the project directory.
+Git is a “version control” system. This system saves old versions of your project, text, and code. For a beginner user it is sufficient for you to just check that you have at .git file in your project directory, if you do, you don’t need to worry about anything further. Each project needs its own .git file and this should be located at the highest level in the project directory.
 
+The .git file keeps track of all the changes made to each file in the folder, so you can 'go back in time' and recover old versions.
 
 ## GitHub
 
-This is different to Git. Instead this a cloud-based storage system that stores the contents of your Git repository online (**MAKE SURE YOU HAVE THE REPOSITORY SET TO PRIVATE IF DESIRED**). Our lab, interacts with the content of the GitHub in two ways, using the desktop app and using GitHub in your web browser.
+Github is a cloud-based storage system that stores the contents of your Git repository online (**MAKE SURE YOU HAVE THE REPOSITORY SET TO PRIVATE IF DESIRED**). Our lab, interacts with the content of the GitHub in two ways, using the desktop app and using GitHub in your web browser.
 
 You also need to ensure that you have a GitHub premium account (this is free for students).
 
@@ -49,14 +51,14 @@ You need to be able understand and do the following by yourself.
 
 * Commit – Save changes of your project to .git file in your local computer/cloud directory
 * Push – Send changes to GitHub so others can access them and update their project version
-* Pull – Update the project on your local computer/cloud directory with changes others have send to GitHub 
+* Pull – Update the project on your local computer/cloud directory with changes others have send to GitHub
 * Clone – Bring an already existing project down to your local computer/cloud directory (you would do this when joining or continuing someone else’s project)
 * Invite – Add another user to your project so they can make edits, join or continue with your progress.
 
 
 ## Directories and files
 
-Directories are hierarchical entirely in structure (folders in folder in folders), but shortcuts allow you to jump between paths. There are some differences in the general directory structure of MAC and Windows, so you need to be aware of the ones relevant to your operating system (see below for details). The main thing you need to understand here is the structure of a directory. We stress on proper usage of sub-folders (do it smart not lazy so directories are easy for another user to understand).
+Directories are hierarchical structures for storing information (folders in folder in folders). Shortcuts allow you to jump between paths. There are some differences in the general directory structure of MAC and Windows, so you need to be aware of the ones relevant to your operating system (see below for details). The main thing you need to understand here is the structure of a directory. We stress on proper usage of sub-folders (do it smart not lazy so directories are easy for another user to understand).
 
 
 #### MAC
@@ -127,7 +129,7 @@ Please adhere to the following when using discussions.
 * Never put down others.
 * Make SURE you mark as answered after you question has been answered, to avoid wasting other users time. And do NOT delete discussions after they have been answered, because they may inform other users.
 * Upvote and like good responses.
-* We encourage answers from everyone because they give us a chance to learn, however, please attach a level of certainty to your response on a scale of 1-10 (where 1, 5, 10 are 10%, 50%, and 100% sure respectively). For example a response might be "That you sea surface temperature is the most important factor according to the literature (6/10)." or "Use an ANOVA not Kruskal wallace test because your residuals are normally distributed (8/10)." 
+* We encourage answers from everyone because they give us a chance to learn, however, please attach a level of certainty to your response on a scale of 1-10 (where 1, 5, 10 are 10%, 50%, and 100% sure respectively). For example a response might be "That you sea surface temperature is the most important factor according to the literature (6/10)." or "Use an ANOVA not Kruskal wallace test because your residuals are normally distributed (8/10)."
 * Do not ask about personal matters here.
 * Make sure that the questions are self contained (have adequete information contained to solve).
 * Make sure your answers contain enough detail to make sense.
@@ -162,7 +164,7 @@ The project folders contain some of the following (with description):
 * .git (hidden file which does version control)
 * XYZ.rproj (open R by clicking on this, which sets working directory in R)
 * .rprofile (hidden file, to change if data lives elsewhere – see Advanced usage)
-* .gitignore (hidden file tell the .git file what should be recorded and should be shared online through GitHub – see gitignore for further details) 
+* .gitignore (hidden file tell the .git file what should be recorded and should be shared online through GitHub – see gitignore for further details)
 
 ![**Figure 4**. A visual representation of how an operation project should be structured that uses R (starting with the R_project_START).](Outputs/folder_structure.png)
 
@@ -170,7 +172,7 @@ The project folders contain some of the following (with description):
 ## Compatibility with R
 
 This framework was designed to work particularly well with R, but will also work well with other programming languages.
- 
+
 * Use R projects for convenience
 * Understand how to change work directories easily in R
 * Personalised .Rprofiles to find the data if in different location to scripts (e.g. the spatial drive), see advanced section below
@@ -193,7 +195,7 @@ This application lets you look at code, issues and get notifications. You can al
 #### Joining someone’s project (cloning)
 
 1. Accept invitation to join repository on GitHub
-2. Open the GitHub desktop app and clone the repository to the desired location 
+2. Open the GitHub desktop app and clone the repository to the desired location
 3. Add the shared data from google drive to the desired location
 4. DONE
 
@@ -246,20 +248,20 @@ My r code here
 
 #### Git branches
 These allow you to make changes to the project that you may or may not want to include in the future (think of them as the same project in a parallel universe). The big downside is that it is that you need to have a fairly good understanding of GitHub to use and that it becomes more difficult to predict how changes on the main project will be integrated with the branch in the future.
-* Don’t recommend using these unless you know what you are doing 
+* Don’t recommend using these unless you know what you are doing
 * They can be really useful if you want to trial substantial changes that you will want to keep or not in the future
 * Or if you want to take several directions on the same project
 
 #### Storing data somewhere else such as the spatial drive
 
-If using R: 
+If using R:
 Write a function in the project .Rprofile file the adds the appropriate working directory to a file path. The .Rprofile is run when you open the project so you will always have access to the function if you opened the R project.
 
 Function below to add extention to filepath x (e.g. x = “Data/data.csv”). Check Sys.info()["user"] for your computers user.
 
 ```r
 mpath <- function(x){
-  
+
   if (Sys.info()["user"] == "maxcampbell"){
     max_ext <- "/Volumes/GoogleDrive/My Drive/tuna-bycatch-study/TNC Tuna Project/"
   } else if (Sys.info()["user"] == "s2989645") {
@@ -269,9 +271,9 @@ mpath <- function(x){
     } else {
       max_ext <- ""
   }
-  
+
   paste0(max_ext, x)
-  
+
 }
 ```
 
@@ -285,7 +287,3 @@ Google drive or Onedrive: I recommend google drive from limited reading, because
 ## Current limitations
 
 * Naming convention of folders allows for potential problems with sharing the incorrect data and or files, and makes it easy to overwrite files
-
-
-
-
