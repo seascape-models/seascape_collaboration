@@ -86,30 +86,24 @@ This includes:
 
 ## Documenting changes
 
-One of the most crucial parts of collaboration is documenting the relevant project information. We do this in two ways using the Materials folder and IMPORTANTLY using a README file. The Materials folder contains interesting content that you have found or made (such as excel spreadsheets, bits of writing, key emails, papers, etc.). Whereas the README file has a summary of the most important project information (you could pretty much copy this in the methods sections of a manuscript as a starting point). Another KEY part of a README file is that it contains a TODO (to do list) at the very beginning so it is easy for you or someone else to pick up a project where you have left off. This README file should be an .md file so we can easily view it on GitHub.
+One of the most crucial parts of collaboration is documenting the relevant project information. We do this in two ways using the Materials folder and IMPORTANTLY using a README file. The Materials folder contains interesting content that you have found or made (such as excel spreadsheets, bits of writing, key emails, papers, etc.). Whereas the README file has a summary of the most important project information (you could pretty much copy this in the methods sections of a manuscript as a starting point). Another KEY part of a README file is that it contains a TODO (to do list) at the very beginning so it is easy for you or someone else to pick up a project where you have left off. TODOs act as a guide on what needs to be done to progress this project to the next level. The README file should be an .md file so we can easily view it on GitHub.
 
 Often, we think of recording metadata (project information) as being a painful exercise and we often tend not to do enough of it. So, my tip would be UPDATE THE TODO SECTION OF THE README EVERYTIME before leaving the project for any reasonable period of time, this will take a short period of time and save you and your colleagues many hours of confusion in the long run. And additionally, update the rest of the README every now and again, when you are feeling motivated (this will pay off when it comes to writing the paper).
 
 You can edit the README.md in any text editor, though I like R studio.
 
+
 ## Using issues
 
-Github issues allow us to be able to keep track of things that need to be resolved, record potential bugs and highlighting document checks needed, while assigning responsibility to the task to a person. These issues are a good place to have discussion on a particular issue by using commenting (this way we can keep track of the juicy details).
+Github issues allow us to be able to keep track of things that need to be resolved, record potential bugs and highlighting document checks needed, while assigning responsibility to the task to a person. These issues are a good place to have discussion on a particular issue by using commenting (this way we can keep track of the juicy details). The can easily be used to mark and reference partular lines of code ([see guides](/tips-and-guides.md))
 
 These should be written directly in GitHub.com (COMMAND + I in the desktop app) or on the mobile app. Note that you can assign parts of an issue to a users using "\@username", and make a checkbox in th use using "- [ ]".
 
-After creating an issue make sure that you delegate at least 1 assignee who is in charge of making sure that the issue is addressed (if unsure who to assign, assign yourself), and add relevant labels.
+After creating an issue make sure:
+* You delegate at least 1 assignee who is in charge of making sure that the issue is addressed (if unsure who to assign, assign yourself)
+* Add relevant label including at least ONE of the following: lowpriority (can be done whenever is convenient), mediumpriority (should be done this week or next), highpriority (NEEDs to be done ASAP), currentlysolved (doesn't require any further attention at this stage) or wontfix (will never fix this issue).
+* Notify assignee/s of issue if it is medium or high priority
 
-#### Creating and removing an issue
-
-1. Go to the ![GitHub.com](https://github.com/)
-2. Move to the relevant project repository.
-3. Click issues, and then new issue.
-4. Fill in the details of the issue (using checkboxes "- [ ]") and assigning sub-parts of the issue to the relevant user using the "\@" operator, and then submit the issue. Create the issue.
-5. Make a user an assignee (they are now in charge of the issue)
-6. Wait till issue is resolved ...
-7. Close the issue when it is resolved.
-8. Hooray issue solved!
 
 ## Using discussions
 
