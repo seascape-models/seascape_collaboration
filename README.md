@@ -1,6 +1,6 @@
 # The general framework for collaboration in the Seascape models Lab
 
-Max Campbell, Chris Brown
+Max Campbell, Chris Brown, Christina Buelow
 
 ## Quick links
 
