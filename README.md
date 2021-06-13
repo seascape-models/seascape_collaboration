@@ -95,14 +95,22 @@ You can edit the README.md in any text editor, though I like R studio.
 
 ## Using issues
 
-Github issues allow us to be able to keep track of things that need to be resolved, record potential bugs and highlighting document checks needed, while assigning responsibility to the task to a person. These issues are a good place to have discussion on a particular issue by using commenting (this way we can keep track of the juicy details). The can easily be used to mark and reference partular lines of code ([see guides](/tips-and-guides.md))
+Github issues allow us to be able to keep track of things that need to be resolved, record potential bugs and highlighting document checks needed, while assigning responsibility to the task to one more person. These issues are a good place to have discussion on a particular issue by using commenting (this way we can keep track of the juicy details). The can easily be used to mark and reference partular lines of code ([see guides](/tips-and-guides.md))
 
-These should be written directly in GitHub.com (COMMAND + I in the desktop app) or on the mobile app. Note that you can assign parts of an issue to a users using "\@username", and make a checkbox in th use using "- [ ]".
+These should be written directly in GitHub.com (COMMAND + I in the desktop app) or on the mobile app.
 
-After creating an issue make sure:
-* You delegate at least 1 assignee who is in charge of making sure that the issue is addressed (if unsure who to assign, assign yourself)
-* Add relevant label including at least ONE of the following: lowpriority (can be done whenever is convenient), mediumpriority (should be done this week or next), highpriority (NEEDs to be done ASAP), currentlysolved (doesn't require any further attention at this stage) or wontfix (will never fix this issue).
-* Notify assignee/s of issue if it is medium or high priority
+
+#### Assignees
+
+An Assignee is a person whom is currently in charge of progressing an issue. There can be multiple assignees per issue, however try to keep the number of assignees to a minimum. The assignee/s may change over the course of a project. If you can no longer progress an issue yourself MAKE SURE you change the assignee/s (if you are the only current assignee). There should NEVER be zero assignees on an issue.
+
+When creating a new issue, you NEED to delegate at LEAST 1 assignee, whom is in charge of making sure that this issue is addressed (if unsure who to assign, assign yourself). Make sure you notify the assignee/s of issue if you delegate them as an assignee and the issue is "highpriority" labelled. 
+
+#### Other important details when using issues
+
+* Add relevant labels including at least ONE of the following: lowpriority (can be done whenever is convenient), mediumpriority (should be done this week or next), highpriority (NEEDs to be done ASAP), currentlysolved (doesn't require any further attention at this stage) or wontfix (will never fix this issue).
+* You can mention someone in an issue if you would like their input using "\@username", howevever USE THIS SPARINGLY because it will fill up their notifications.
+* You can make a checkbox in the issue or comment use using "- [ ]"
 
 
 ## Using discussions
