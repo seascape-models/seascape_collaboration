@@ -44,6 +44,22 @@
 4. Fill in the rest on the details of comment or issue and submit.
 5. Done
 
+### Converting existing projects to the framework
+
+**If they are complex and almost finished then don't do it. If they are simple and just started then move them.
+If the are complex and have a long way to go move them (it will be easier in the long run).**
+
+1. Copy a relevant project folder template from the [directory templates](https://drive.google.com/drive/folders/1dCdiRN_8FS5AD5XSGm9nlPYaxtmwZXSE?usp=sharing) to the relevant location on your computer.
+2. Rename the folders and add new ones where needed.
+3. Populate the new project folder by copying the contents of the existing project into the relevant location.
+4. Store the existing (old) project in case it is needed in the future.
+5. MAKE SURE the .gitignore folder is updated if you are NOT using the standard names.
+6. Add new project as an "Existing repository" from the GitHub desktop app.
+7. Publish repository on GitHub from the desktop app.
+8. Invite other collaborators to the repository on GitHub in browser.
+9. Share the data with other collaborators through data storage system.
+10. DONE
+
 ## How to collaborate outside of the lab
 
 TBA ...

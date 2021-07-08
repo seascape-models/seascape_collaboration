@@ -77,7 +77,7 @@ Your main folders and files should stem from the Users folder. You can navigate 
 For tips on naming things we follow similar [Jenny Bryan's naming protocal.](http://www2.stat.duke.edu/~rcs46/lectures_2015/01-markdown-git/slides/naming-slides/naming-slides.pdf)
 
 This includes:
-* Using logical (e.g. start with "001_" to signal step 1, and  "002_" to signal step 2.) rather than chronological order (do not use dates because they have to constantly be updated and are not very human-readable).
+* Using logical order where possible (e.g. start with "001_" to signal step 1, and  "002_" to signal step 2.) rather than chronological order (because dates they have to be constantly be updated and are not very human-readable). Chronological order are fine too but make sure you use the "YYYY-MM-DD" form. 
 * Descriptive names
 * Using "-" and "_" to separate words
 * No special characters
@@ -184,6 +184,19 @@ This framework was designed to work particularly well with R, but will also work
 ## Using the mobile app
 
 This application lets you look at code, issues and get notifications. You can also create new issues from your phone, however, some functionally seems to be reduced. Either way its cool so give it a GO!
+
+
+## Tips and guides
+
+[Quick how to guides](/tips-and-guides.md), which includes:
+
+* Starting a new project
+* Joining someone’s project (cloning)
+* Project workflow (from GitHub desktop App)
+* Creating and removing an issue
+* Mark and show lines of code within an issue
+* Converting existing projects to the framework
+* General tips
 
 ## Advanced usage
 
