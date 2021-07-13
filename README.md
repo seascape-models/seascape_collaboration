@@ -10,24 +10,25 @@ Max Campbell, Chris Brown, Christina Buelow
 
 ## The Motivation
 
-This framework was designed for the seascape model lab to be able to collaborate across multiple projects with a consistent and coherent structure. To effectively use this framework you need to have a basic idea of git, GitHub, folder directories and Google Drive. We can teach you if you don't.  
+This framework was designed for the seascape model lab to be able to collaborate across multiple projects with a consistent and coherent structure. To effectively use this framework you need to have a basic idea of git, GitHub, folder directories and cloud based storage (Google Drive). We can teach you if you don't.  
 
 The figure below explains the framework. Ask us if its not clear.
 
-The orange box lives only the internet, purple box lives on the internet and maybe somewhere else if working offline, and the blue boxes can live anywhere (but we recommend they live on the google drive too). The green arrows indicate transfer of information/files/data. Note that GitHub and Google Drive are not connected in any way (and they operate completely independently). **NEVER** share your user folder with another user whom is connected to the GitHub repository or you may **LOSE YOUR DOCUMENTS OR CODE**.
+The orange box lives only the internet, purple box lives on the internet and maybe somewhere else if working offline, and the blue boxes can live anywhere (but we recommend they live on the google drive too). The green arrows indicate transfer of information/files/data. Note that GitHub and cloud storage are not connected in any way (and they operate completely independently). **NEVER** share your user folder with another user whom is connected to the GitHub repository or you may **LOSE YOUR DOCUMENTS OR CODE**.
 
 ![**Figure 1**. The general framework of collaboration in the Seascape models Lab.](Outputs/proposed_collab_framework.png)
 
 ## TODO List
 
 * Present to lab @maxcampb
-* Get other opinions on what works well with collaboration
 * Workshop at GC
 * Online workshop?
 * Ensure that everyone is familarised with the framework
 
 
-## Google drive (storing data)
+## Cloud storage (Google Drive)
+
+We recommend that you use Google Drive as the default because it is free with the university and popular, thus it is likely that all your collaborators will have access. This is not a requirement and you are free to use a system of your choice (Dropbox, Research Drive or onedrive), however, it is your responsibility to ensure that all collaborators have access to the cloud storage system you use.
 
 Google drive is a cloud-based storage that works very similar to a giant USB drive which is backed up online. The trickiest part of using google drive is making sure that you are set up properly on your personal computer ([read here]( https://support.google.com/drive/answer/7329379#zippy= )). After this is done it should work just the same as any other directory (folder structure) with a few extra Google drive options.
 
