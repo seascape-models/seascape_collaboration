@@ -1,5 +1,32 @@
+# Important Tips
 
-# How to do...
+## Measures to prevent problems
+
+As with any framework there are [potential risks](\limitations_risks_and_solutions.md) involved in using this framework. However, if you follow the below measures it is unlikely that you will have any issues, while using the framework.
+
+1. The "Shared" folder has the same syncing flaws as using shared folders on dropbox/google drive. So you should make sure that you are not working on the same file as someone else in the "Shared" folder (let other users know when you are working on something that they might be).
+2. Make sure that you save your work frequently while working on something, and **ALWAYS** when you leave your workstation.
+3. Make sure that the cloud syncing process is complete before you leave your workstation, switch computers or allow others to work on the same files that you have been. Where, you should avoid working offline and with poor internet connections where possible.
+4. Push your changes to GitHub before leaving your work station, **IF**, your push does not potentially damage other parts of the project (this is 99\% of cases) . **IF** your push may be harmful, **DO NOT PUSH**, save locally, and ensure that it is safe to push your progress ASAP (and then push).
+5. Make sure that you move "Shared" folders to the correct location as soon as they are shared with you.
+6. Do not share any folders other than the "Shared" folder.
+7. Pull every time before you start working on the project.
+8. If you get conflicts when pulling from GitHub, resolve them immediately before continuing.
+9. Keep your folders clean and well structured.
+
+
+If you have any issues while using the framework refer to the [risks and solutions document](\limitations_risks_and_solutions.md) and seek help.
+
+
+## Collaborate outside of the lab
+
+TBA ...
+
+* What to share etc.
+* What not to share
+
+
+# How to do (guides) ...
 
 ### Starting a new project
 
@@ -60,15 +87,7 @@ If the are complex and have a long way to go move them (it will be easier in the
 9. Share the data with other collaborators through data storage system.
 10. DONE
 
-## How to collaborate outside of the lab
-
-TBA ...
-
-* What to share etc.
-* What not to share
-
-
-## Other tips and tricks
+# Other tips and tricks
 
 * Use “_” instead of space in folder names
 * Have your OS display hidden files

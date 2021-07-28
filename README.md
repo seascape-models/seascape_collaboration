@@ -11,7 +11,7 @@ Max Campbell, Chris Brown, Christina Buelow
 
 ## The Motivation
 
-This framework was designed for the seascape model lab to be able to collaborate across multiple projects with a consistent and coherent structure. To effectively use this framework you need to have a basic idea of git, GitHub, folder directories and cloud based storage (Google Drive). We can teach you if you don't.  
+This framework was designed for the seascape model lab to be able to collaborate across multiple projects with a consistent and coherent structure. To effectively use this framework you need to have a basic idea of git, GitHub, folder directories and cloud based storage (Google Drive or Dropbox). We can teach you if you don't.  
 
 The figure below explains the framework. Ask us if its not clear.
 
@@ -33,7 +33,7 @@ We recommend that you use Google Drive as the default because it is free with th
 
 Google drive is a cloud-based storage that works very similar to a giant USB drive which is backed up online. The trickiest part of using google drive is making sure that you are set up properly on your personal computer ([read here]( https://support.google.com/drive/answer/7329379#zippy= )). After this is done it should work just the same as any other directory (folder structure) with a few extra Google drive options.
 
-* Suggest you save project here along with "Shared" folder (containing Data, Manuscripts, and Binary files), but **ONLY SHARE THE DATA**.
+* Suggest you save project here along with "Shared" folder (containing Data, Manuscripts, and Binary files), but **ONLY SHARE THE "Shared" FOLDER**.
 * Students and Staff seem to have unlimited Google drive storage until further notice.
 
 
@@ -65,15 +65,15 @@ You need to be able understand and do the following by yourself.
 
 Directories are hierarchical structures for storing information (folders in folder in folders). Shortcuts allow you to jump between paths. There are some differences in the general directory structure of MAC and Windows, so you need to be aware of the ones relevant to your operating system (see below for details). The main thing you need to understand here is the structure of a directory. We stress on proper usage of sub-folders (do it smart not lazy so directories are easy for another user to understand).
 
-#### MAC or Linux
+### MAC or Linux
 Your main folders and files should stem from the Users folder (home for Linux users). You can navigate through the directory using the “/” operator. For example, “/Users/maxcampbell” is the location of the base directory for the user “maxcampbell”, further if we want to go lower in the directory “/Users/maxcampbell/Documents” will take into the “Documents” folder of this user “/Users/maxcampbell/Documents/Active_projects” into the “Active_projects” folder within the “Documents” folder of the user. Finally, if wanting to refer to the data saved as at csv file in the “Active_projects” folder we use “/Users/maxcampbell/Documents/Active_projects/data.csv”.  And you should be able to access any file on your computer using this method (including a folder on Google Drive, after you have the Google Drive app).
 
-#### Windows
+### Windows
 Your main folders and files should stem from the Users folder. You can navigate through the directory using the “\\” operator. For example, “C:\\Users\\maxcampbell” is the location of the base directory for the user “maxcampbell” , further if we want to go lower in the directory “C:\\Users\\maxcampbell\\Documents” will take into the “Documents” folder of this user “C:\\Users\\maxcampbell\\Documents\\Active_projects” into the “Active_projects” folder within the “Documents” folder of the user. Finally, if wanting to refer to the data saved as at csv file in the “Active_projects” folder we use “C:\\Users\\maxcampbell\\Documents\\Active_projects \\data.csv”.  And you should be able to access any file on your computer using this method (including a folder on Google Drive, after you have the Google Drive app).
 
 ![**Figure 2**. An example of the hierarchical nature of directories on a user’s computer. Red path shows the example we gave in the directories operation system section. Teal paths indicate an example of a project directory.](Materials/Outputs/Directory_example_v2.png)
 
-#### Naming files and Directories
+### Naming files and Directories
 
 For tips on naming things we follow similar [Jenny Bryan's naming protocol.](http://www2.stat.duke.edu/~rcs46/lectures_2015/01-markdown-git/slides/naming-slides/naming-slides.pdf)
 
@@ -91,7 +91,7 @@ One of the most crucial parts of collaboration is documenting the relevant proje
 
 Often, we think of recording metadata (project information) as being a painful exercise and we often tend not to do enough of it. So, my tip would be UPDATE THE TODO SECTION OF THE README EVERY TIME before leaving the project for any reasonable period of time, this will take a short period of time and save you and your colleagues many hours of confusion in the long run. And additionally, update the rest of the README every now and again, when you are feeling motivated (this will pay off when it comes to writing the paper).
 
-You can edit the README.md in any text editor, though I like R studio.
+You can edit the README.md in any text editor, though I like R studio or VSCode.
 
 
 ## Using issues
@@ -101,13 +101,13 @@ GitHub issues allow us to be able to keep track of things that need to be resolv
 These should be written directly in GitHub.com (COMMAND + I in the desktop app) or on the mobile app.
 
 
-#### Assignees
+### Assignees
 
 An Assignee is a person whom is currently in charge of progressing an issue. There can be multiple assignees per issue, however try to keep the number of assignees to a minimum. The assignee/s may change over the course of a project. If you can no longer progress an issue yourself MAKE SURE you change the assignee/s (if you are the only current assignee). There should NEVER be zero assignees on an issue.
 
 When creating a new issue, you NEED to delegate at LEAST 1 assignee, whom is in charge of making sure that this issue is addressed (if unsure who to assign, assign yourself). Make sure you notify the assignee/s of issue if you delegate them as an assignee and the issue is "highpriority" labelled. 
 
-#### Other important details when using issues
+### Other important details when using issues
 
 * Add relevant labels including at least ONE of the following: lowpriority (can be done whenever is convenient), mediumpriority (should be done this week or next), highpriority (NEEDs to be done ASAP), currentlysolved (doesn't require any further attention at this stage) or wontfix (will never fix this issue).
 * You can mention someone in an issue if you would like their input using "\@username", however USE THIS SPARINGLY because it will fill up their notifications.
@@ -126,7 +126,7 @@ In addition to using issues we use discussions. Where important distinction betw
 
 Please follow the guidelines below when participating in discussions, and use the following flow chart.
 
-#### Discussion guidelines
+### Discussion guidelines
 
 Please adhere to the following when using discussions.
 * First diagnose whether this material is appropriate for a discussion using Figure 3.
@@ -141,7 +141,7 @@ Please adhere to the following when using discussions.
 
 ![**Figure 3**. Diagnosis of a discussion or issue.](Materials/Outputs/Discussion_flowchart.png)
 
-#### Other types of discussions
+### Other types of discussions
 
 **Q&A:** These are the main type of discussion and should have solution.
 
@@ -207,7 +207,7 @@ This application lets you look at code, issues and get notifications. You can al
 
 ## Advanced usage
 
-#### Markdown and HTML
+### Markdown and HTML
 
 * Learn how to use markdown, [here are some tips](https://rmarkdown.rstudio.com/lesson-1.html)
 * For code write using:
@@ -219,23 +219,26 @@ My r code here
 \`\`\`
 
 
-#### LATEX compatibility in R markdown and markdown
+### LATEX compatibility in R markdown and markdown
 
 * Mathematics equations are great in LateX see guide [here](https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols)
-* Can use them directly in R markdown with "$$ your latex for separate line $$" or "$ your latex for inline $"
+* Can use them directly in markdown with "\$$ your latex for separate line $$" or "\$ your latex for inline $"
 * If wanting to use in GitHub discussions need chrome attachment [purple pi](https://github.com/nschloe/purple-pi)
 
-#### .gitignore
+### Ignoring files with .gitignore
 
 .gitignore files are to stop git from committing files with certain extensions. These files will never be synced online. You can change this file if desire. To understanding the patterns ignored in the git file [read here](https://git-scm.com/docs/gitignore).
 
-#### Git branches
-These allow you to make changes to the project that you may or may not want to include in the future (think of them as the same project in a parallel universe). The big downside is that it is that you need to have a fairly good understanding of GitHub to use and that it becomes more difficult to predict how changes on the main project will be integrated with the branch in the future.
-* Don’t recommend using these unless you know what you are doing
+### Git branches
+These allow you to make changes to the project that you may or may not want to include in the future (think of them as the same project in a parallel universe). The big downside is that it is that you need to have a fairly good understanding of GitHub to use and that it becomes more difficult to predict how changes on the main project will be integrated with the branch in the future. 
+
+* Do not recommend using these unless you know what you are doing
 * They can be really useful if you want to trial substantial changes that you will want to keep or not in the future
 * Or if you want to take several directions on the same project
 
-#### Storing data somewhere else such as the spatial drive
+If you are interested here is an issue on the flow structure we would probably use contents of issue [#32].
+
+### Storing data somewhere else such as the spatial drive
 
 If using R:
 Write a function in the project .Rprofile file the adds the appropriate working directory to a file path. The .Rprofile is run when you open the project so you will always have access to the function if you opened the R project.
@@ -262,14 +265,4 @@ mpath <- function(x){
 
 If using another Program:
 Set the appropriate working directory in the program (could use a similar function to above R version easily enough).
-
-## Options (unresolved)
-
-Dropbox, Google drive or Onedrive: I recommend google drive (out of the free alternatives) from limited reading, because apparently Onedrive occasionally mixes file (which would really suck!). However, I still think Dropbox is the best of the three from my experiences.
-
-## Current limitations
-
-* Naming convention of folders allows for potential problems with sharing the incorrect and or files, and makes it easy to overwrite files
-* Binary files are not backed up on GitHub
-
 
