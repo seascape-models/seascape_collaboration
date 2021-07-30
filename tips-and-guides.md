@@ -20,7 +20,7 @@ If you have any issues while using the framework refer to the [risks and solutio
 
 ## Collaborate outside of the lab
 
-TBA ...
+TBA ....
 
 * What to share etc.
 * What not to share
