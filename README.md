@@ -1,4 +1,4 @@
-# The general framework for collaboration in the seascape models lab (SCF)
+# The general framework for collaboration in the seascape models lab
 
 Max Campbell, Chris Brown, Christina Buelow
 
@@ -11,7 +11,7 @@ Max Campbell, Chris Brown, Christina Buelow
 
 ## The Motivation
 
-This framework (SCF) was designed for the seascape models lab to be able to collaborate across multiple projects with a consistent and coherent structure. To effectively use this framework you need to have a basic idea of git, GitHub, folder directories and cloud based storage (Google Drive or Dropbox). We can teach you if you don't.  
+The seascape collaboration framework (SCF) was designed for the seascape models lab to be able to collaborate across multiple projects with a consistent and coherent structure. To effectively use this framework you need to have a basic idea of git, GitHub, folder directories and cloud based storage (Google Drive or Dropbox). We can teach you if you don't.  
 
 The figure below explains the framework. Ask us if its not clear.
 
