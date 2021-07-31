@@ -1,4 +1,4 @@
-# The general framework for collaboration in the Seascape models Lab
+# The general framework for collaboration in the seascape models lab (SCF)
 
 Max Campbell, Chris Brown, Christina Buelow
 
@@ -11,13 +11,13 @@ Max Campbell, Chris Brown, Christina Buelow
 
 ## The Motivation
 
-This framework was designed for the seascape model lab to be able to collaborate across multiple projects with a consistent and coherent structure. To effectively use this framework you need to have a basic idea of git, GitHub, folder directories and cloud based storage (Google Drive or Dropbox). We can teach you if you don't.  
+This framework (SCF) was designed for the seascape models lab to be able to collaborate across multiple projects with a consistent and coherent structure. To effectively use this framework you need to have a basic idea of git, GitHub, folder directories and cloud based storage (Google Drive or Dropbox). We can teach you if you don't.  
 
 The figure below explains the framework. Ask us if its not clear.
 
 The orange box lives only the internet, purple box lives on the internet (Google drive, Dropbox, etc.) and maybe somewhere else if working offline (suggest you use syncing of cloud to handle this), and the blue boxes can live anywhere (but we recommend they live in the same location as purple box too). The green arrows indicate transfer of information/files/data. Note that GitHub and cloud storage are not connected in any way (and they operate completely independently). **NEVER** share your user folder with another user whom is connected to the GitHub repository or you may **LOSE YOUR DOCUMENTS OR CODE**. Instead share only the "Shared" folder (purple box) with collaborators. The "Shared" folder has a central role in this framework in that is stores and backs ups sub folders "Data" and "Manuscripts" (and their contents), as well as binary type files (e.g. .xlsx, .docx), which are not handled well by GitHub (not that only your cloud based storage is your backup here).
 
-![**Figure 1**. The general framework of collaboration in the Seascape models Lab.](Materials/Outputs/proposed_collab_framework_v2.png)
+![**Figure 1**. The general framework of collaboration in the seascape models (SCF).](Materials/Outputs/proposed_collab_framework_v2.png)
 
 ## TODO List
 
