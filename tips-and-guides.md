@@ -2,7 +2,7 @@
 
 ## Measures to prevent problems
 
-As with any framework there are [potential risks](\limitations_risks_and_solutions.md) involved in using this framework. However, if you follow the below measures it is unlikely that you will have any issues, while using the framework.
+As with any framework there are [potential risks](limitations_risks_and_solutions.md) involved in using this framework. However, if you follow the below measures it is unlikely that you will have any issues, while using the framework.
 
 1. The "Shared" folder has the same syncing flaws as using shared folders on dropbox/google drive. So you should make sure that you are not working on the same file as someone else in the "Shared" folder (let other users know when you are working on something that they might be).
 2. Make sure that you save your work frequently while working on something, and **ALWAYS** when you leave your workstation.
@@ -15,7 +15,7 @@ As with any framework there are [potential risks](\limitations_risks_and_solutio
 9. Keep your folders clean and well structured.
 
 
-If you have any issues while using the framework refer to the [risks and solutions document](\limitations_risks_and_solutions.md) and seek help.
+If you have any issues while using the framework refer to the [risks and solutions document](limitations_risks_and_solutions.md) and seek help.
 
 
 ## Collaborate outside of the lab
