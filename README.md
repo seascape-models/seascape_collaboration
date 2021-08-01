@@ -8,6 +8,8 @@ Max Campbell, Chris Brown, Christina Buelow
 
 [Quick how to guides](/tips-and-guides.md)
 
+[Learning SCF quiz (take as often as you want)](https://forms.gle/RbThtdiVXDyy8EC16)
+
 
 ## The Motivation
 
