@@ -231,6 +231,12 @@ My r code here
 
 .gitignore files are to stop git from committing files with certain extensions. These files will never be synced online. You can change this file if desire. To understanding the patterns ignored in the git file [read here](https://git-scm.com/docs/gitignore).
 
+### Using the framework with the Griffith HPC
+
+The SCF works well with the Griffith HPC.
+
+Follow the instructions [here](https://github.com/seascape-models/seascape_collaboration/blob/master/Griffith_HPC_with_SCF.md)
+
 ### Git branches
 These allow you to make changes to the project that you may or may not want to include in the future (think of them as the same project in a parallel universe). The big downside is that it is that you need to have a fairly good understanding of GitHub to use and that it becomes more difficult to predict how changes on the main project will be integrated with the branch in the future. 
 
