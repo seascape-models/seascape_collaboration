@@ -6,7 +6,7 @@ A big thankyou to other lab members for feedback and ideas.
 
 ## Quick links
 
-[Get directory template](https://drive.google.com/drive/folders/1dCdiRN_8FS5AD5XSGm9nlPYaxtmwZXSE?usp=sharing)
+[Get directory template](https://www.dropbox.com/scl/fo/izk0ddbdqsgp3kzihrrv5/h?dl=0&rlkey=91v4l1uxbc7wwhnn4qy4grrh6)
 
 [Quick how to guides](/how-to-guides.md)
 
@@ -16,23 +16,23 @@ A big thankyou to other lab members for feedback and ideas.
 
 ## The Motivation
 
-The seascape collaboration framework (SCF) was designed for the seascape models lab to be able to collaborate across multiple projects with a consistent and coherent structure. To effectively use this framework you need to have a basic idea of git, GitHub, folder directories and cloud based storage (Google Drive or Dropbox). We can teach you if you don't.  
+The seascape collaboration framework (SCF) was designed for the seascape models lab to be able to collaborate across multiple projects with a consistent and coherent structure. To effectively use this framework you need to have a basic idea of git, GitHub, folder directories and cloud based storage (OneDrive, Google Drive or Dropbox). We can teach you if you don't.  
 
 The figure below explains the framework. Ask us if its not clear.
 
-The orange box lives only the internet, purple box lives on the internet (Google drive, Dropbox, etc.) and maybe somewhere else if working offline (suggest you use syncing of cloud to handle this), and the blue boxes can live anywhere (but we recommend they live in the same location as purple box too). The green arrows indicate transfer of information/files/data. Note that GitHub and cloud storage are not connected in any way (and they operate completely independently). **NEVER** share your user folder with another user whom is connected to the GitHub repository or you may **LOSE YOUR DOCUMENTS OR CODE**. Instead share only the "Shared" folder (purple box) with collaborators. The "Shared" folder has a central role in this framework in that is stores and backs ups sub folders "Data" and "Manuscripts" (and their contents), as well as binary type files (e.g. .xlsx, .docx), which are not handled well by GitHub (not that only your cloud based storage is your backup here).
+The orange box lives only the internet, purple box lives on the internet (OneDrive, Dropbox, etc.) and maybe somewhere else if working offline (suggest you use syncing of cloud to handle this), and the blue boxes can live anywhere (but we recommend they live in the same location as purple box too). The green arrows indicate transfer of information/files/data. Note that GitHub and cloud storage are not connected in any way (and they operate completely independently). **NEVER** share your user folder with another user whom is connected to the GitHub repository or you may **LOSE YOUR DOCUMENTS OR CODE**. Instead share only the "Shared" folder (purple box) with collaborators. The "Shared" folder has a central role in this framework in that is stores and backs ups sub folders "Data" and "Manuscripts" (and their contents), as well as binary type files (e.g. .xlsx, .docx), which are not handled well by GitHub (not that only your cloud based storage is your backup here).
 
 ![**Figure 1**. The general framework of collaboration in the seascape models (SCF).](Materials/Outputs/proposed_collab_framework_v2.png)
 
 
-## Cloud storage (Google Drive)
+## Cloud storage (OneDrive)
 
-We recommend that you use Google Drive as the default because it is free with the university and popular, thus it is likely that all your collaborators will have access. This is not a requirement and you are free to use a system of your choice (Dropbox, Research Drive or onedrive), however, it is your responsibility to ensure that all collaborators have access to the cloud storage system you use.
+We recommend that you use OneDrive as the default because it is free with the university and popular, thus it is likely that all your collaborators will have access. This is not a requirement and you are free to use a system of your choice (Dropbox, Research Drive or google drive), however, it is your responsibility to ensure that all collaborators have access to the cloud storage system you use.
 
-Google drive is a cloud-based storage that works very similar to a giant USB drive which is backed up online. The trickiest part of using google drive is making sure that you are set up properly on your personal computer ([read here]( https://support.google.com/drive/answer/7329379#zippy= )). After this is done it should work just the same as any other directory (folder structure) with a few extra Google drive options.
+OneDrive is a cloud-based storage that works very similar to a giant USB drive which is backed up online. The trickiest part of using OneDrive is making sure that you are set up properly on your personal computer ([read here](https://support.microsoft.com/en-us/office/get-started-with-onedrive-work-or-school-b30da4eb-ddd2-44b6-943b-e6fbfc6b8dde)). After this is done it should work just the same as any other directory (folder structure) with a few extra OneDrive options.
 
 * Suggest you save project here along with "Shared" folder (containing Data, Manuscripts, and Binary files), but **ONLY SHARE THE "Shared" FOLDER**.
-* Students and Staff seem to have unlimited Google drive storage until further notice.
+* Students and Staff seem to have unlimited OneDrive storage until further notice.
 
 
 ## Git
@@ -64,10 +64,10 @@ You need to be able understand and do the following by yourself.
 Directories are hierarchical structures for storing information (folders in folder in folders). Shortcuts allow you to jump between paths. There are some differences in the general directory structure of MAC and Windows, so you need to be aware of the ones relevant to your operating system (see below for details). The main thing you need to understand here is the structure of a directory. We stress on proper usage of sub-folders (do it smart not lazy so directories are easy for another user to understand).
 
 ### MAC or Linux
-Your main folders and files should stem from the Users folder (home for Linux users). You can navigate through the directory using the “/” operator. For example, “/Users/maxcampbell” is the location of the base directory for the user “maxcampbell”, further if we want to go lower in the directory “/Users/maxcampbell/Documents” will take into the “Documents” folder of this user “/Users/maxcampbell/Documents/Active_projects” into the “Active_projects” folder within the “Documents” folder of the user. Finally, if wanting to refer to the data saved as at csv file in the “Active_projects” folder we use “/Users/maxcampbell/Documents/Active_projects/data.csv”.  And you should be able to access any file on your computer using this method (including a folder on Google Drive, after you have the Google Drive app).
+Your main folders and files should stem from the Users folder (home for Linux users). You can navigate through the directory using the “/” operator. For example, “/Users/maxcampbell” is the location of the base directory for the user “maxcampbell”, further if we want to go lower in the directory “/Users/maxcampbell/Documents” will take into the “Documents” folder of this user “/Users/maxcampbell/Documents/Active_projects” into the “Active_projects” folder within the “Documents” folder of the user. Finally, if wanting to refer to the data saved as at csv file in the “Active_projects” folder we use “/Users/maxcampbell/Documents/Active_projects/data.csv”.  And you should be able to access any file on your computer using this method (including a folder on OneDrive, after you have the OneDrive app).
 
 ### Windows
-Your main folders and files should stem from the Users folder. You can navigate through the directory using the “\\” operator. For example, “C:\\Users\\maxcampbell” is the location of the base directory for the user “maxcampbell” , further if we want to go lower in the directory “C:\\Users\\maxcampbell\\Documents” will take into the “Documents” folder of this user “C:\\Users\\maxcampbell\\Documents\\Active_projects” into the “Active_projects” folder within the “Documents” folder of the user. Finally, if wanting to refer to the data saved as at csv file in the “Active_projects” folder we use “C:\\Users\\maxcampbell\\Documents\\Active_projects \\data.csv”.  And you should be able to access any file on your computer using this method (including a folder on Google Drive, after you have the Google Drive app).
+Your main folders and files should stem from the Users folder. You can navigate through the directory using the “\\” operator. For example, “C:\\Users\\maxcampbell” is the location of the base directory for the user “maxcampbell” , further if we want to go lower in the directory “C:\\Users\\maxcampbell\\Documents” will take into the “Documents” folder of this user “C:\\Users\\maxcampbell\\Documents\\Active_projects” into the “Active_projects” folder within the “Documents” folder of the user. Finally, if wanting to refer to the data saved as at csv file in the “Active_projects” folder we use “C:\\Users\\maxcampbell\\Documents\\Active_projects \\data.csv”.  And you should be able to access any file on your computer using this method (including a folder on OneDrive, after you have the OneDrive app).
 
 ![**Figure 2**. An example of the hierarchical nature of directories on a user’s computer. Red path shows the example we gave in the directories operation system section. Teal paths indicate an example of a project directory.](Materials/Outputs/Directory_example_v2.png)
 

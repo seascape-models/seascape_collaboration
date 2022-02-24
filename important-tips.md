@@ -4,7 +4,7 @@
 
 As with any framework there are [potential risks](limitations_risks_and_solutions.md) involved in using this framework. However, if you follow the below measures it is unlikely that you will have any issues, while using the framework.
 
-1. The "Shared" folder has the same syncing flaws as using shared folders on dropbox/google drive. So you should make sure that you are not working on the same file as someone else in the "Shared" folder (let other users know when you are working on something that they might be).
+1. The "Shared" folder has the same syncing flaws as using shared folders on dropbox/onedrive. So you should make sure that you are not working on the same file as someone else in the "Shared" folder (let other users know when you are working on something that they might be).
 2. Make sure that you save your work frequently while working on something, and **ALWAYS** when you leave your workstation.
 3. Make sure that the cloud syncing process is complete before you leave your workstation, switch computers or allow others to work on the same files that you have been. Where, you should avoid working offline and with poor internet connections where possible.
 4. Push your changes to GitHub before leaving your work station, **IF**, your push does not potentially damage other parts of the project (this is 99\% of cases) . **IF** your push may be harmful, **DO NOT PUSH**, save locally, and ensure that it is safe to push your progress ASAP (and then push).

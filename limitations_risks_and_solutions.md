@@ -6,7 +6,7 @@
 
 ## Options (unresolved)
 
-Dropbox, Google drive or Onedrive: I recommend google drive (out of the free alternatives) from limited reading, because apparently Onedrive occasionally mixes file (which would really suck!). However, I still think Dropbox is the best of the three from my experiences.
+Dropbox, Google drive or OneDrive: OneDrive because it is free. However, from limited reading apparently OneDrive occasionally mixes file (which would really suck!). I still think Dropbox is the best of the three from my experiences.
 
 
 # Risks and solutions
@@ -57,7 +57,7 @@ This would be in the case that the files on a cloud based system stopped working
 
 ## .git file is corrupted
 
-This is noted as a common issue for using .git files with cloud based storage systems such as dropbox or google drive. In many cases people say do not not mix these systems, however, because the .git folders are saved to GitHub (Max and Eric think this is not really a problem in our framework). In the case where you have not pushed your changes to GitHub upon leaving a project, it is possible that you might loss these changes if the .git file was corrupted. Perhaps these changes could be retrieved to from the cloud system, but perhaps not.
+This is noted as a common issue for using .git files with cloud based storage systems such as dropbox or OneDrive drive. In many cases people say do not not mix these systems, however, because the .git folders are saved to GitHub (Max and Eric think this is not really a problem in our framework). In the case where you have not pushed your changes to GitHub upon leaving a project, it is possible that you might loss these changes if the .git file was corrupted. Perhaps these changes could be retrieved to from the cloud system, but perhaps not.
 
 **Risk Range** = 2D - 2B = Low to Medium 
 
@@ -81,7 +81,7 @@ This is noted as a common issue for using .git files with cloud based storage sy
 ### Course of action (help)
 
 0. Be sure you know what you are doing here
-1. Make sure all your files are synced properly to the Dropbox/google drive folder and append this folder name with "_corrupted"
+1. Make sure all your files are synced properly to the Dropbox/OneDrive folder and append this folder name with "_corrupted"
 2. Remove the corrupted git repository from the project folder.
 3. Clone a new version of the git repository from GitHub to the dropbox, making sure you do not save over the "_corrupted" folder.
 4. Manually replace the files that you have made changes to in the new version on the project folder (that you just cloned from GitHub), and add shared folders and those not tracked by GitHub

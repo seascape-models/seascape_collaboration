@@ -2,10 +2,10 @@
 
 ### Starting a new project
 
-1. Copy paste the desired project folder from the “seascape_collaboration folder” to the desired location on your machine (recommend this is on the google drive directory) and rename both the folder and the Rproject. And put files in relevant locations.
+1. Copy paste the desired project folder from the [folder templates](https://www.dropbox.com/scl/fo/izk0ddbdqsgp3kzihrrv5/h?dl=0&rlkey=91v4l1uxbc7wwhnn4qy4grrh6) to the desired location on your machine (recommend this is on the OneDrive directory) and rename both the folder and the Rproject. And put files in relevant locations.
 2. Link to GitHub, MAKE SURE YOU MAKE A PRIVATE REPOSITORY IF REQUIRED
 3. Invite collaborators to join project on GitHub
-4. Share data with collaborators from google drive
+4. Share data with collaborators from OneDrive
 5. Update the README.MD
 6. DONE
 
@@ -13,7 +13,7 @@
 
 1. Accept invitation to join repository on GitHub
 2. Open the GitHub desktop app and clone the repository to the desired location
-3. Add the shared data from google drive to the desired location
+3. Add the shared data from OneDrive to the desired location
 4. DONE
 
 ### Project workflow (from GitHub desktop App)
@@ -48,7 +48,7 @@
 **If they are complex and almost finished then don't do it. If they are simple and just started then move them.
 If the are complex and have a long way to go move them (it will be easier in the long run).**
 
-1. Copy a relevant project folder template from the [directory templates](https://drive.google.com/drive/folders/1dCdiRN_8FS5AD5XSGm9nlPYaxtmwZXSE?usp=sharing) to the relevant location on your computer.
+1. Copy a relevant project folder template from the [directory templates](https://www.dropbox.com/scl/fo/izk0ddbdqsgp3kzihrrv5/h?dl=0&rlkey=91v4l1uxbc7wwhnn4qy4grrh6) to the relevant location on your computer.
 2. Rename the folders and add new ones where needed.
 3. Populate the new project folder by copying the contents of the existing project into the relevant location.
 4. Store the existing (old) project in case it is needed in the future.
