@@ -27,6 +27,8 @@ The orange box lives only the internet, purple box lives on the internet (OneDri
 
 ## Cloud storage (OneDrive)
 
+NOTE: We are currently (2022-05-17) having issues implementing this framework in OneDrive. We recommend not using Onedrive for now until we resolve this (if its even possible!), please discuss with your supervisor an appropriate cloud storage service instead.
+
 We recommend that you use OneDrive as the default because it is free with the university and popular, thus it is likely that all your collaborators will have access. This is not a requirement and you are free to use a system of your choice (Dropbox, Research Drive or google drive), however, it is your responsibility to ensure that all collaborators have access to the cloud storage system you use.
 
 OneDrive is a cloud-based storage that works very similar to a giant USB drive which is backed up online. The trickiest part of using OneDrive is making sure that you are set up properly on your personal computer ([read here](https://support.microsoft.com/en-us/office/get-started-with-onedrive-work-or-school-b30da4eb-ddd2-44b6-943b-e6fbfc6b8dde)). After this is done it should work just the same as any other directory (folder structure) with a few extra OneDrive options.
