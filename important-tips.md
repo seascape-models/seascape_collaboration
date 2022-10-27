@@ -4,12 +4,12 @@
 
 As with any framework there are [potential risks](limitations_risks_and_solutions.md) involved in using this framework. However, if you follow the below measures it is unlikely that you will have any issues, while using the framework.
 
-1. The "Shared" folder has the same syncing flaws as using shared folders on dropbox/onedrive. So you should make sure that you are not working on the same file as someone else in the "Shared" folder (let other users know when you are working on something that they might be).
+1. The "Shared_*" folder has the same syncing flaws as using shared folders on dropbox/onedrive. So you should make sure that you are not working on the same file as someone else in the "Shared_*" folder (let other users know when you are working on something that they might be).
 2. Make sure that you save your work frequently while working on something, and **ALWAYS** when you leave your workstation.
 3. Make sure that the cloud syncing process is complete before you leave your workstation, switch computers or allow others to work on the same files that you have been. Where, you should avoid working offline and with poor internet connections where possible.
 4. Push your changes to GitHub before leaving your work station, **IF**, your push does not potentially damage other parts of the project (this is 99\% of cases) . **IF** your push may be harmful, **DO NOT PUSH**, save locally, and ensure that it is safe to push your progress ASAP (and then push).
-5. Make sure that you move "Shared" folders to the correct location as soon as they are shared with you.
-6. Do not share any folders other than the "Shared" folder.
+5. Make sure that you move "Shared_*" folders to the correct location as soon as they are shared with you.
+6. Do not share any folders other than the "Shared_*" folder, and make sure you rename to something like "Shared_coral_reef_modelling" before sharing.
 7. Pull every time before you start working on the project.
 8. If you get conflicts when pulling from GitHub, resolve them immediately before continuing.
 9. Keep your folders clean and well structured.
@@ -46,7 +46,7 @@ If you code is of appicabilty in a general sense consider making a realise or pu
 
 When collaborating outside the lab you have a few options that we recommend. Any of the below options should work fine.
 
-* Encourage your collaborator to use the SCF, adding them to the GitHub repo and only sharing the "Shared" folder (the most secure way).
+* Encourage your collaborator to use the SCF, adding them to the GitHub repo and only sharing the "Shared_*" folder (the most secure way).
 * Add them to the GitHub repo and don't share anything with them on cloud storage folder. Instead, zip any data they need and send to to them, via email or on cloud (this is very secure albeit a bit messier).
 * IF THEY DONT USE git/GitHub you can share the folder with them via the cloud storage (Realises on cloud storage syncing). You will still be able to use the SCF with other collaborators but make sure you know how you are collaborating with each user.
 * Zip the entire project and send a copy and manually update as you go (very secure but also very messy).
