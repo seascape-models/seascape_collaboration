@@ -1,6 +1,6 @@
 # General framework for collaboration in the seascape models lab
 
-Max Campbell, Chris Brown, Christina Buelow
+Max D Campbell, Chris Brown, Christina Buelow
 
 A big thankyou to other lab members for feedback and ideas.
 
@@ -20,7 +20,7 @@ The seascape collaboration framework (SCF) was designed for the seascape models 
 
 The figure below explains the framework. Ask us if its not clear.
 
-The orange box lives only the internet, purple box lives on the internet (OneDrive, Dropbox, etc.) and maybe somewhere else if working offline (suggest you use syncing of cloud to handle this), and the blue boxes can live anywhere (but we recommend they live in the same location as purple box too). The green arrows indicate transfer of information/files/data. Note that GitHub and cloud storage are not connected in any way (and they operate completely independently). **NEVER** share your user folder with another user whom is connected to the GitHub repository or you may **LOSE YOUR DOCUMENTS OR CODE**. Instead share only the "Shared" folder (purple box) with collaborators. The "Shared" folder has a central role in this framework in that is stores and backs ups sub folders "Data" and "Manuscripts" (and their contents), as well as binary type files (e.g. .xlsx, .docx), which are not handled well by GitHub (not that only your cloud based storage is your backup here).
+The orange box lives only the internet, purple box lives on the internet (OneDrive, Dropbox, etc.) and maybe somewhere else if working offline (suggest you use syncing of cloud to handle this), and the blue boxes can live anywhere (but we recommend they live in the same location as purple box too). The green arrows indicate transfer of information/files/data. Note that GitHub and cloud storage are not connected in any way (and they operate completely independently). **NEVER** share your user folder with another user whom is connected to the GitHub repository or you may **LOSE YOUR DOCUMENTS OR CODE**. Instead share only the "Shared_*" folder (purple box) with collaborators. Also **MAKE SURE** to rename the "Shared" folder before you share to something the matches the pattern "Shared_*" so it can be uniquely identified (e.g. "Shared_fish_counts" or "Shared_Climate_predictions"). The "Shared_*" folder has a central role in this framework in that is stores and backs ups sub folders "Data" and "Manuscripts" (and their contents), as well as binary type files (e.g. .xlsx, .docx), which are not handled well by GitHub (not that only your cloud based storage is your backup here).
 
 ![**Figure 1**. The general framework of collaboration in the seascape models (SCF).](Materials/Outputs/proposed_collab_framework_v2.png)
 
@@ -33,7 +33,7 @@ We recommend that you use OneDrive as the default because it is free with the un
 
 OneDrive is a cloud-based storage that works very similar to a giant USB drive which is backed up online. The trickiest part of using OneDrive is making sure that you are set up properly on your personal computer ([read here](https://support.microsoft.com/en-us/office/get-started-with-onedrive-work-or-school-b30da4eb-ddd2-44b6-943b-e6fbfc6b8dde)). After this is done it should work just the same as any other directory (folder structure) with a few extra OneDrive options.
 
-* Suggest you save project here along with "Shared" folder (containing Data, Manuscripts, and Binary files), but **ONLY SHARE THE "Shared" FOLDER**.
+* Suggest you save project here along with "Shared_*" folder (containing Data, Manuscripts, and Binary files), but **ONLY SHARE THE RENAMED "Shared_*" FOLDER**.
 * Students and Staff seem to have unlimited OneDrive storage until further notice.
 
 
@@ -161,14 +161,14 @@ Several templates have been made for your convenience, access them [here](https:
 The project folders contain some of the following (with description):
 * README.MD (standardised Rmarkdown file – see Documenting Changes section)
 * Scripts/ (folder to store code scripts)
-* Outputs/ (folder to store figures or outputs you want to use or back up on GitHub from analysis or other - note these can make repository very large so consider "Shared/Outputs/" folder (DO NOT make this your default place for figures))
+* Outputs/ (folder to store figures or outputs you want to use or back up on GitHub from analysis or other - note these can make repository very large so consider "Shared_*/Outputs/" folder (DO NOT make this your default place for figures))
 * Non_binary/ (folder to store meta data and useful writing. This will be on GitHub so consider using files that are not binary (e.g. .MD, .RMD, .CSV, .txt, .html, etc.), otherwise, you Git repo will bet very large (which will slow the system a lot).
 
-* Shared/ (folder to store all data, manuscripts, outputs, and binary files. This should live on the cloud and be the **ONLY** shared with collaborators, It will also not be on GitHub)
-* Shared/Data/ (folder to store all data, will not be on GitHub)
-* Shared/Manuscripts/ (folder to store your project manuscripts, will not be on GitHub)
-* Shared/Outputs/ (folder to store all data, will not be on GitHub)
-* Shared/Materials/ (folder to store meta data and useful writing, will not be on GitHub)
+* Shared_*/ (folder to store all data, manuscripts, outputs, and binary files. This should live on the cloud and be the **ONLY** shared with collaborators, It will also not be on GitHub)
+* Shared_*/Data/ (folder to store all data, will not be on GitHub)
+* Shared_*/Manuscripts/ (folder to store your project manuscripts, will not be on GitHub)
+* Shared_*/Outputs/ (folder to store all data, will not be on GitHub)
+* Shared_*/Materials/ (folder to store meta data and useful writing, will not be on GitHub)
 
 * OLD/ (folder to chuck OLD stuff in found in several directories, these folders are not on GitHub)
 * Private/ (Things you do NOT want to end up on GitHub or share with other users, e.g. large files, personal files etc.)
