@@ -5,7 +5,7 @@
 1. Copy paste the desired project folder from the [folder templates](https://www.dropbox.com/scl/fo/izk0ddbdqsgp3kzihrrv5/h?dl=0&rlkey=91v4l1uxbc7wwhnn4qy4grrh6) to the desired location on your machine (recommend this is on the OneDrive directory) and rename both the folder and the Rproject. And put files in relevant locations.
 2. Link to GitHub, MAKE SURE YOU MAKE A PRIVATE REPOSITORY IF REQUIRED
 3. Invite collaborators to join project on GitHub
-4. Share data with collaborators from OneDrive
+4. Share the "Shared_*" with collaborators from OneDrive (note, rename prior to something like "Shared_fish_counts")
 5. Update the README.MD
 6. DONE
 
@@ -13,7 +13,7 @@
 
 1. Accept invitation to join repository on GitHub
 2. Open the GitHub desktop app and clone the repository to the desired location
-3. Add the shared data from OneDrive to the desired location
+3. Add the "Shared_*" folder from OneDrive to the desired location
 4. DONE
 
 ### Project workflow (from GitHub desktop App)
