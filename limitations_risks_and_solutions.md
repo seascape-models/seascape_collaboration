@@ -1,7 +1,6 @@
 
 # Current limitations
 
-* Naming convention of folders allows for potential problems with sharing the incorrect and or files, and makes it easy to overwrite files
 * Binary files are not backed up on GitHub
 
 ## Options (unresolved)
@@ -21,7 +20,7 @@ We base our ratings on the following risk assessment guideline
 
 ## Cloud contents is corrupted of deleted
 
-This would be in the case that the files on a cloud based system stopped working. Probably, this is not a massive deal because you should be able to access a previous version on a file. The consequences could be worse if the corruption or deletion affected the contents of the "Shared" folder, because that isn't backed up on GitHub (its also more likely because of the multiple users).
+This would be in the case that the files on a cloud based system stopped working. Probably, this is not a massive deal because you should be able to access a previous version on a file. The consequences could be worse if the corruption or deletion affected the contents of the "Shared_*" folder, because that isn't backed up on GitHub (its also more likely because of the multiple users).
 
 **Risk Range** = 2C - 3C = Medium 
 
@@ -134,7 +133,7 @@ This could be harmful if the folder kept being shared while multiple users were 
 
 * Quality training on using the framework
 * Encourage extra vigilance while sharing
-* Only share one folder (the shared folder)
+* Only share one folder (the "Shared_*" folder)
 
 **Potential**
 
@@ -210,7 +209,7 @@ If you have no conflicts this does not matter at all. If you have some you just 
 
 ## Switching computers before cloud finished sinking
 
-If you were working in the shared folder and you continue to do so on your other computer, you could overwrite changes (and potentially lose progress). If working with files tracked by git you could corrupt the repository.
+If you were working in the "Shared_* folder and you continue to do so on your other computer, you could overwrite changes (and potentially lose progress). If working with files tracked by git you could corrupt the repository.
 
 **Risk Range** = 2B - 4C = Medium to High 
 
